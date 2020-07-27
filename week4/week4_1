@@ -1,0 +1,5 @@
+f = open("test.text","w") # text.text라는 이름의 파일을 write 형식으로 열어줘
+f.write("hello world")
+f.write("good bye") #엔터 없이 쳐짐
+f.write("\n이렇게") #\n을 써야 엔터됨 // html의 <br>과 같음
+f.close() #내부적으로 연 파일을 닫겠다.
